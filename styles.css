@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+#mainView {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+#locationAndFormSection {
+    text-align: left;
+}
+
+#weatherSection {
+    text-align: right;
+}
+
+* {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
