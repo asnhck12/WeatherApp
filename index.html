@@ -10,18 +10,20 @@
 </head>
 <body>
     <h1>Weather App</h1>
+    <div id="citySearch">
+        <form>
+            <label for="location">Please enter a Location: </label>
+            <input type="text" id="location" name="location" required>
+            <button type="submit" id="submitLocation">Submit</button>
+        </form>
+    </div>
     <div id="mainView">
         <div id="locationAndFormSection">
-            <form>
-                <label for="location">Please enter a Location: </label>
-                <input type="text" id="location" name="location" value="London" required>
-                <button type="submit" id="submitLocation">Submit</button>
-            </form>
             <div id="locationSection">
                 <h3>Location: </h3><p id="cityName"></p>
                 <h3>Latitude: </h3><p id="lat"></p>
                 <h3>Longitude: </h3><p id="lon"></p>
-                <h3>Time: </h3><p id="time"> </p>
+                <h3>Date and Time: </h3><p id="time"> </p>
             </div>
         </div>
         <div id="weatherSection">
@@ -30,7 +32,10 @@
             <h3>Humidity: </h3><p id="humidity"></p>
             <h3>Wind: </h3><p id="wind"></p>
         </div>
+        
     </div>
-
+    <div id="poweredBy">
+        <p >Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p> <p>Photo by Pixabay: <a href="https://www.pexels.com/photo/blue-skies-53594/" title="Blue Sky Photo">https://www.pexels.com</a></p>
+    </div>
 </body>
 </html>

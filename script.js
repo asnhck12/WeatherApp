@@ -24,8 +24,8 @@ async function getWeather(locationValue) {
     longitude.innerHTML = weatherData.location.lon;
     time.innerHTML = weatherData.location.localtime;
     condition.innerHTML = weatherData.current.condition.text;
-    temp.innerHTML = weatherData.current.temp_c + "C";
-    humidity.innerHTML = weatherData.current.humidity;
+    temp.innerHTML = weatherData.current.temp_c + "°C";
+    humidity.innerHTML = weatherData.current.humidity + "%";
     wind.innerHTML = weatherData.current.wind_mph + " mph";
 }
 

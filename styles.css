@@ -1,3 +1,23 @@
+p {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
+}
+
+html {
+    height: 100%;
+    background-image: url(./images/pexels-pixabay-53594.jpg);
+    /* background-color: #448EE4; */
+}
+
+body {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 5% 80% 5%;
+}
+
 h1 {
     text-align: center;
 }
@@ -16,9 +36,10 @@ h1 {
 }
 
 * {
-    background-color: black;
+    color: black;    
 }
 
-* {
-    color: white;
+
+#poweredBy{
+    text-align: center;
 }
