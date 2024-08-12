@@ -1,4 +1,4 @@
-#Weather App
+# Weather App
 
 A Weather app that provides upto date Weather based on locations entered in the text field.
 Built with HTML, JS ad utilises API
