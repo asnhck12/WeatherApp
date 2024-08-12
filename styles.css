@@ -10,21 +10,18 @@ h3 {
 html {
     height: 100%;
     background-image: url(./images/white-clouds-blue-background.jpg);
-    /* background-color: #448EE4; */
     background-size: cover;
 }
 
 body {
     height: 100%;
-    /* display: grid;
-    grid-template-rows: 10% 5% 80% 5%; */
     display: flex;
     flex-direction: column;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #mainView {
@@ -46,7 +43,7 @@ h1 {
 }
 
 label, input, button {
-    font-size: x-large;
+    font-size: large;
 }
 
 button {
@@ -76,6 +73,7 @@ input, button {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    
 }
 
 #gitHubIcon img {
@@ -84,12 +82,8 @@ input, button {
 }
 
 body {
-    /* margin: 0; */
-    height: 100%;
     display: flex;
     flex-direction: column;
-    /* display: grid;
-    grid-template-rows: auto auto auto 20px; */
 }
 
 .heading, #citySearch {
