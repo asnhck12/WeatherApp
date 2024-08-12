@@ -9,7 +9,9 @@
     <title>Weather App</title>
 </head>
 <body>
-    <h1>Weather App</h1>
+    <div class="heading">
+        <h1>Weather App</h1>
+    </div>
     <div id="citySearch">
         <form>
             <label for="location">Please enter a Location: </label>
@@ -32,10 +34,28 @@
             <h3>Humidity: </h3><p id="humidity"></p>
             <h3>Wind: </h3><p id="wind"></p>
         </div>
-        
     </div>
-    <div id="poweredBy">
-        <p >Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p> <p>Photo by Pixabay: <a href="https://www.pexels.com/photo/blue-skies-53594/" title="Blue Sky Photo">https://www.pexels.com</a></p>
+    <div id="footer">
+        <div id="poweredBy">
+            <div class="weatherSourceSection">
+                <p >Powered by <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI.com</a></p>
+            </div>
+            <div id="gitHub">
+                <div id="gitHubText">
+                    <a href="https://github.com/asnhck12" target="_blank">
+                        <p>asnhck12</p>
+                        </a>
+                </div>
+                <div id="gitHubIcon">
+                    <a href="https://github.com/asnhck12" target="_blank">
+                        <img src="/images/github_icon.svg" />
+                        </a>
+                </div>
+            </div>
+            <div class="bgSource">
+                <p>Background by FreePik: <a href="https://www.freepik.com/free-photo/white-clouds-blue-background_14140107.htm#query=weather%20app%20background&position=34&from_view=keyword&track=ais_hybrid&uuid=8b7cdd3a-c167-4436-ab31-17cef286d718" target="_blank">Image by freepik</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
